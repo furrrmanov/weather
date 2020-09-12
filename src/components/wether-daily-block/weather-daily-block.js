@@ -54,7 +54,7 @@ export default class WeatherDailyBlock extends React.Component {
     const daysBlockArr = weatherDaily.map((item, idx) => {
       const url = `http://openweathermap.org/img/wn/${item.icon}@2x.png`;
 
-      if (idx < 3) {
+      if (idx < 4 && idx !== 0) {
         return (
           <div className="days-block" key={idx}>
             <h2 className="days-block-name">{this.dayParse(item.days)}</h2>
