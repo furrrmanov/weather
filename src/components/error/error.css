@@ -1,0 +1,11 @@
+.error-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.error-description {
+  font-size: 2rem;
+}

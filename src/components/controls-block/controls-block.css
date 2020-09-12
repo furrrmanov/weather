@@ -1,0 +1,39 @@
+.buttons-panel {
+  display: flex;
+  flex-direction: row;
+  padding: 2% 2% 2% 0;
+}
+
+.lang-select {
+  margin-left: 5px;
+}
+
+.bi-arrow-repeat {
+  margin: 0px 0px 8px 0px;
+}
+
+
+.btn {
+  display: block;
+  width: 45px;
+  height: 45px;
+  font-size: 1.5rem;
+  text-align: center;
+  align-items: center;
+  color:#c4cfe1;
+  border-color: #c4cfe1;
+}
+
+.rotate {
+  transition: linear 1.5s;
+  transform: rotateY(180deg);
+}
+
+.lang-select {
+  width: 70px;
+}
+
+.lang-select > option {
+  font-size: 1rem;
+}
+

@@ -1,0 +1,54 @@
+.weather-daily-block {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.days-block {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 33%;
+}
+
+.days-block-name {
+  width: 100%;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.days-block-temp {
+  width: 40%;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.days-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+@media only screen and (max-width: 725px) {
+  .weather-daily-block {
+    flex-direction: column;
+  }
+
+  .days-info {
+    display: flex;
+  }
+
+  .days-block {
+    margin: 0 auto;
+  }
+
+  .days-block-name {
+    text-align: center;
+  }
+
+  .days-block-img {
+    width: 90px;
+    height: 90px;
+  }
+}
