@@ -7,7 +7,7 @@ export default class Error extends React.Component {
     const { language } = this.props;
 
     const title = language === 'en' ? "Error" : 'Ошибка'
-    const description = language === "en" ? 'Enter a valid request' : 'Ведден не корректный запрос'    
+    const description = language === "en" ? 'Enter a valid request' : 'Введите корректный запрос'    
     return (
       <div className="error-block">
         <h1 className="error-title">{title}</h1>
