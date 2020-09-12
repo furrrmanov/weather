@@ -1,16 +1,18 @@
-import React from 'react'
+import React from "react";
 
-import './error.css'
+import "./error.css";
 
 export default class Error extends React.Component {
-
-
   render() {
-    return(
-      <div className='error-block'>
-        <h1 className='error-title'>Ошибка</h1>
-        <p className='error-description'>Ведден не корректный запрос</p>
+    const { language } = this.props;
+
+    const title = language === 'en' ? "Error" : 'Ошибка'
+    const description = language === "en" ? 'Enter a valid request' : 'Ведден не корректный запрос'    
+    return (
+      <div className="error-block">
+        <h1 className="error-title">{title}</h1>
+        <p className="error-description">{description}</p>
       </div>
-    )
+    );
   }
 }

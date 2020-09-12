@@ -112,7 +112,7 @@ export default class App extends Component {
     }
   }
 
-  onError = (err) => {
+  onError = () => {
     this.setState({
       error: true,
       loading: false,
@@ -146,7 +146,7 @@ export default class App extends Component {
           </div>
   
           <div className='main'>
-            <Error />
+            <Error language={language}/>
             <div className='map-wrapper'>
              <SearchBlock onSearchLocation={this.onSearchLocation} />
              <Map coord={coord}/>

@@ -5,10 +5,10 @@
 .form-control {
   height: 45px;
   font-size: 1.7rem;
-  background:   rgb(196 207 225 / 10%);;
+  background:   rgb(0 0 0 / 30%);;
   color: #ffffff;
   border: 1px solid #c4cfe1;
-  width: calc(400px - 45px);
+  width: calc(400px - 55px);
 }
 
 .search-form {
@@ -32,7 +32,7 @@
 @media only screen and (max-width: 1185px) {
   .form-control {
     height: 45px;
-    width: calc(600px - 45px);
+    width: calc(600px - 55px);
   }
 }
 
@@ -44,13 +44,13 @@
 
   .form-control {
     height: 45px;
-    width: calc(600px - 45px);
+    width: calc(600px - 55px);
   }
 }
 
 @media only screen and (max-width: 665px) {
   .form-control {
     height: 45px;
-    width: calc(300px - 45px);
+    width: calc(300px - 55px);
   }
 }
